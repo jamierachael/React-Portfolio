@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 function Footer(props) {
     return (
 
-        <div class="footer">
+        <div class="footer bg-info">
             <p>Jamie Rachael Morris</p>
         </div>
 

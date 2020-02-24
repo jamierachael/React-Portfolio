@@ -4,9 +4,7 @@
     
 }
 
-.bg-teal {
-    background-color: teal;
-}
+
 
 .header {
     border-bottom: 3px solid #2220b4;
@@ -115,6 +113,7 @@ height: 400px;;
     background-color:  teal;
     color: white;
     text-align: center;
+    border-top: 3px solid #2220b4;
  }
 
  .contact-card {
