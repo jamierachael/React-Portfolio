@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import ContactPNG from "../assets/contact.png"
 
 
 function ContactCard(props) {
@@ -17,6 +17,8 @@ function ContactCard(props) {
                     <a href="https://www.linkedin.com/in/jamie-rachael-morris/" className="ml-4 mt-4 font-weight-bold">LinkedIn</a>
 
                     <a href="https://github.com/jamierachael" className="ml-4 mt-4 font-weight-bold">GitHub</a>
+
+                    <img src={ContactPNG} alt="profile-photo" className="profile float-left"></img>
                 </div>
             </div>
         </div >

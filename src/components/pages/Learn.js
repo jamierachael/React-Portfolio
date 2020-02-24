@@ -1,4 +1,5 @@
 import React from "react";
+import ResumePNG from "../../assets/resume.png"
 
 
 
@@ -16,8 +17,9 @@ function Learn() {
           <a href="https://www.linkedin.com/in/jamie-rachael-morris/" className="ml-4 mt-4 font-weight-bold">LinkedIn</a>
 
           <a href="https://github.com/jamierachael" className="ml-4 mt-4 font-weight-bold">GitHub</a>
-          <br></br>
-          <a href="https://drive.google.com/file/d/1dFVsUXB41oGoqZOmT4qzfg-rRqoAdtj2/view?usp=sharing"><h1 className="text-center mt-5">View Here</h1></a>
+
+          <img src={ResumePNG} alt="profile-photo" className="resumePNG"></img>
+          <a href="https://drive.google.com/file/d/1dFVsUXB41oGoqZOmT4qzfg-rRqoAdtj2/view?usp=sharing"><h1 className="text-center mt-2">View Here</h1></a>
 
         </div>
       </div>

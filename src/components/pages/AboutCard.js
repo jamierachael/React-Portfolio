@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/Profile.jpeg"
+import Profile from "../../assets/Profile.jpeg"
 
 
 function AboutCard() {
@@ -10,7 +10,7 @@ function AboutCard() {
             <img src={Profile} alt="profile-photo" className="profile float-left"></img>
             <div>
 
-                <div className="mt-3">
+                <div>
 
                     <p>I am a Fullstack Developer and administrative professional
                                                 with 8+ years

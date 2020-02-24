@@ -40,7 +40,7 @@ function NavTabs() {
             to="/contact/learn"
             className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
           >
-            Learn
+            Resume
         </Link>
         </li>
       </ul>
