@@ -6,8 +6,8 @@ function PortfolioCard(props) {
     return (
         <div className="card">
             <div className="img-container">
-                <img alt={props.name} src={props.image} />
 
+                <img alt={props.name} src={props.image} />
             </div>
             <div className="content">
                 <ul>
@@ -18,8 +18,9 @@ function PortfolioCard(props) {
                         <strong>Project:</strong> {props.project}
                     </li>
                     <li>
-                        <strong>Address:</strong> {props.location}
+                        <strong>Demo:</strong> {props.location}
                     </li>
+
                 </ul>
             </div>
             <span className="remove">𝘅</span>

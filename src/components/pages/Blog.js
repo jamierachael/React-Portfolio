@@ -1,50 +1,68 @@
 import React from "react";
-import PortfolioCard from "../../components/PortfolioCard";
+import PortfolioCard from "../PortfolioCard";
 import friends from "../../assets/friends.json";
 
 
 function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-
-      <h1 className="title">Friends List</h1>
-      <PortfolioCard
-        name={friends[0].name}
-        image={friends[0].image}
-        project={friends[0].project}
-        location={friends[0].location}
-      />
-      <PortfolioCard
-        name={friends[1].name}
-        image={friends[1].image}
-        occupation={friends[1].occupation}
-        location={friends[1].location}
-      />
-      <PortfolioCard
-        name={friends[2].name}
-        image={friends[2].image}
-        occupation={friends[2].occupation}
-        location={friends[2].location}
-      />
+      <h1>Portfolio Page</h1>
 
 
+      <div className="container">
+        <h1 className="title">Projects List</h1>
+        <div className="row">
+          <PortfolioCard
+            name={friends[0].name}
+            image={friends[0].image}
+            project={friends[0].project}
+            location={friends[0].location}
+          />
+          <PortfolioCard
+            name={friends[1].name}
+            image={friends[1].image}
+            project={friends[1].project}
+            location={friends[1].location}
+          />
+        </div>
+        <div className="row">
+          <PortfolioCard
+            name={friends[2].name}
+            image={friends[2].image}
+            project={friends[2].project}
+            location={friends[2].location}
+          />
+
+          <PortfolioCard
+            name={friends[3].name}
+            image={friends[3].image}
+            project={friends[3].project}
+            location={friends[3].location}
+          />
+        </div>
+
+        <div className="row">
+
+          <PortfolioCard
+            name={friends[4].name}
+            image={friends[4].image}
+            project={friends[4].project}
+            location={friends[4].location}
+          />
+
+          <PortfolioCard
+            name={friends[5].name}
+            image={friends[5].image}
+            project={friends[5].project}
+            location={friends[5].location}
+          />
+
+        </div>
+      </div>
 
 
 
-    </div>
+    </div >
   );
 }
 

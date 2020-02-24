@@ -2,22 +2,43 @@
   {
     "id": 1,
     "name": "Balance",
-    "image": "https://images.readwrite.com/wp-content/uploads/2019/08/Why-You-Love-Online-Quizzes-825x500.jpg",
+    "image": "https://github.com/jamierachael/React-Portfolio/blob/master/src/assets/balance.png?raw=true",
     "project": "Mood Tracking App",
-    "location": "A Pineapple Under the Sea"
+    "location": "https://radiant-plains-19401.herokuapp.com/"
   },
   {
     "id": 2,
     "name": "Coding Quiz",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "https://github.com/jamierachael/React-Portfolio/blob/master/src/assets/Coding-Quiz.png?raw=true",
+    "project": "Javascript Quiz",
+    "location": "https://jamierachael.github.io/Code-Quiz/"
   },
   {
     "id": 3,
     "name": "Password Generator",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "https://github.com/jamierachael/React-Portfolio/blob/master/src/assets/Password-Generator.png?raw=true",
+    "project": "Random Password generator",
+    "location": "https://jamierachael.github.io/Password-Generator/"
+  },
+  {
+    "id": 4,
+    "name": "Survivor Bootcamp Edition",
+    "image": "https://github.com/jamierachael/React-Portfolio/blob/master/src/assets/Survivor-Boot-Camp-Edition.png?raw=true",
+    "project": "A Coding Bootcamp resource",
+    "location": "https://dvega920.github.io/Survivor-Bootcamp-edition/"
+  },
+  {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "https://github.com/jamierachael/React-Portfolio/blob/master/src/assets/weather-dashboard.png?raw=true",
+    "project": "A Weather Tracking App",
+    "location": "https://jamierachael.github.io/Weather-Dashboard/"
+  },
+  {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "https://github.com/jamierachael/React-Portfolio/blob/master/src/assets/Work-Day-Scheduler.png?raw=true",
+    "project": "A Daily Agenda",
+    "location": "https://jamierachael.github.io/Day-Planner/"
   }
 ]

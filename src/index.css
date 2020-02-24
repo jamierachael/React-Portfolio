@@ -4,13 +4,12 @@
     
 }
 
-
-
 .bg-teal {
     background-color: teal;
 }
 
 .header {
+
     border-bottom: 3px solid #2220b4;
 }
 
@@ -18,10 +17,6 @@
     background-color: #fffdd0;
    } 
 
-   .about-card {
-       width: 50%;
-       margin-left: 20%;
-   }
 
    /* start copy paste  */
 
@@ -72,4 +67,55 @@
   .card > .remove:hover {
     color: #d50000;
   }
+
+  .container {
+    margin-left: 25%;
+    border: 1px white solid;
+    background-color:  #fffdd0;
+    width: 50%;
+  }
   
+  body {
+    background-image: url("assets/pano-dam.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    min-height: 900px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .nav-tabs {
+    border: 2px lightgray solid;
+ 
+  }
+
+  .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+
+  .about-container {
+    border: 1px white solid;
+    background-color:  #fffdd0;
+    width: 50%;
+    margin-left: 25%;
+    height: 600px;
+    padding: 20px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  teal;
+    color: white;
+    text-align: center;
+ }
+
+ .contact-card {
+  border: 1px white solid;
+  background-color:  #fffdd0;
+  width: 25%;
+  margin-left: 35%;
+ }

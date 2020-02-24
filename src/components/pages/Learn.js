@@ -2,14 +2,21 @@ import React from "react";
 
 function Learn() {
   return (
-    <div>
-      <h1 className="text-center">hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
-      </p>
-    </div>
+    <div className="contact-card">
+
+      <div className="card">
+        <h1 className="text-center">Contact Me</h1>
+        <div className="card-content">
+          <a href="tel:+7147860736" className="ml-4 mt-4 font-weight-bold">Phone</a>
+
+          <a href="mailto:webmaster@jamie.rachael@gmail.com" className="ml-4 mt-4 font-weight-bold">Email</a>
+
+          <a href="https://www.linkedin.com/in/jamie-rachael-morris/" className="ml-4 mt-4 font-weight-bold">LinkedIn</a>
+
+          <a href="https://github.com/jamierachael" className="ml-4 mt-4 font-weight-bold">GitHub</a>
+        </div>
+      </div>
+    </div >
   );
 }
 

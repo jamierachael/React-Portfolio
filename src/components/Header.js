@@ -6,7 +6,7 @@ function Header(props) {
     return (
 
         <header className="header bg-teal">
-            <h1 className="text-white"> Jamie Rachael Morris </h1>
+            <a href="https://github.com/jamierachael"> <h1 className="text-white">Jamie Rachael Morris </h1></a>
         </header>
 
     );
