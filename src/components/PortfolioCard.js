@@ -4,7 +4,7 @@ import React from "react";
 
 function PortfolioCard(props) {
     return (
-        <div className="card">
+        <div className="card port-card">
             <div className="img-container">
 
                 <img alt={props.name} src={props.image} />
@@ -23,7 +23,7 @@ function PortfolioCard(props) {
 
                 </ul>
             </div>
-            <span className="remove">𝘅</span>
+
         </div>
     );
 }

@@ -1,15 +1,17 @@
 import React from "react";
+import Profile from "../assets/Profile.jpeg"
 
 
 function AboutCard() {
     return (
         <div className="about-container">
+            <h5>About Me</h5>
 
-            <img src="../../assets/Profile-2019.png"></img>
+            <img src={Profile} alt="profile-photo" className="profile float-left"></img>
             <div>
 
                 <div>
-                    <h5>About Me</h5>
+
                     <p>I am a Fullstack Developer and administrative professional
                                                 with 8+ years
                                                 of
@@ -40,7 +42,7 @@ function AboutCard() {
                                                 </p>
                 </div>
 
-                <div className="card-body">
+                <div className="card-body contactLinks">
                     <a href="https://www.linkedin.com/in/jamie-rachael-morris/" className="card-link">LinkedIn</a>
                     <a href="https://github.com/jamierachael" className="card-link">GitHub</a>
                 </div>

@@ -9,16 +9,12 @@
 }
 
 .header {
-
     border-bottom: 3px solid #2220b4;
 }
 
  body {
     background-color: #fffdd0;
    } 
-
-
-   /* start copy paste  */
 
    .card {
     background: #fff;
@@ -32,19 +28,23 @@
   }
   
   .card > .img-container {
-    height: 60%;
+    height: 100%;
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
+    padding-top: 10px;
+    
   }
   .card > .img-container > img {
-    width: 60%
+    width: 90%
   }
   
   .card > .content {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 15px;
+    height: 200px;
+    
   }
   
   .card > .content > ul {
@@ -54,19 +54,16 @@
   .card > .content > ul > li {
     margin-top: 18px;
   }
-  
-  .card > .remove {
-    color: #ff1744;
-    font-size: 48px;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    cursor: pointer;
+
+  .port-card {
+height: 400px;;
+  }
+
+  .portfolio-container {
+    margin-top: 60px;
+    margin-bottom: 100px;
   }
   
-  .card > .remove:hover {
-    color: #d50000;
-  }
 
   .container {
     margin-left: 25%;
@@ -78,7 +75,7 @@
   body {
     background-image: url("assets/pano-dam.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
-    min-height: 900px; /* You must set a specified height */
+    min-height: 1300px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -101,6 +98,13 @@
     margin-left: 25%;
     height: 600px;
     padding: 20px;
+    margin-top: 10%;
+  }
+
+  .profile {
+    width: 300px;
+    height: auto;
+    padding: 15px;
   }
 
   .footer {
@@ -118,4 +122,24 @@
   background-color:  #fffdd0;
   width: 25%;
   margin-left: 35%;
+  margin-top: 20px;
+ }
+
+ .contactLinks {
+   margin-left: 35%;
+   
+ }
+
+ .card-home {
+   height: 400px;
+   
+ }
+
+ .row-home {
+   margin-top: 10%;
+   margin-left: 33%;
+ }
+
+ .ome-profile-photo {
+   margin-left: 20%;
  }
