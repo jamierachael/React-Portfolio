@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Balance",
+    "image": "https://images.readwrite.com/wp-content/uploads/2019/08/Why-You-Love-Online-Quizzes-825x500.jpg",
+    "project": "Mood Tracking App",
+    "location": "A Pineapple Under the Sea"
+  },
+  {
+    "id": 2,
+    "name": "Coding Quiz",
+    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "occupation": "Restaurant Owner",
+    "location": "A Giant Anchor"
+  },
+  {
+    "id": 3,
+    "name": "Password Generator",
+    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "occupation": "Cashier",
+    "location": "An Easter Island Head"
+  }
+]
