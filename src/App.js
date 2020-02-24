@@ -1,3 +1,5 @@
+// Project modeled after React week two example from UNH
+// Some code examples provided by UNH
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
