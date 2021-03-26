@@ -1,3 +1,11 @@
+
+* [GitHub Repository](https://github.com/jamierachael/React-Portfolio)
+* [Deployed GitHub IO](https://jamierachael.github.io/React-Portfolio/)
+
+
+
+### Information on running a Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
